@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Card Draw Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bigBody">
+ 
+ <h1> Card Draw Game </h1>
+
+  <p> This game generates cards until a spade is drawn. </p>
+  
+  <p> Clicking the button shows you how many tries it took draw an amount of cards without drawing a spade. </p>
+	
+  <p> Input the amount of cards you want to try and draw before getting a spade </p>
+  
+  <p> Warning - A number over 40 may cause a crash! </p>
+     <form name="drawNumber">
+       <input name="numba" type="number" value = "10">
+     </form>
+
+  <br/>
+
+  <button name="drawCards" type="button" onclick="numberCalc(), buttonClick()"> Draw Cards </button>
+
+  <br/> 
+  
+  <div class="chance">
+  </div>
+  
+  <div class="results">
+  </div>
+
+  <div class="results2">     
+  </div>
+
+  <div class="results3">   
+  </div>
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="script.js"></script>
+  
+</body>
+</html>
