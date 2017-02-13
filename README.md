@@ -10,4 +10,6 @@ The game is how many cards are "drawn" before a spade.  So if you hit a spade on
 
 Enjoy!  Was just my first attempt at a javascript page.
 
+THIS SITE CAN BE ACCCESSED LIVE AT :   http://ascendhealthcare.com.au/carddrawgame/index.html
+
 Paul.
